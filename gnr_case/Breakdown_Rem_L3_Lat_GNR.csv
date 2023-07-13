@@ -1,0 +1,58 @@
+
+
+
+INFO PULL FROM emurun.dut_cfg: 
+tlm_dut                    ,gnr
+EMU Model path             ,0
+real_cores                 ,N/A
+num_chs_per_mcs            ,N/A
+num_mcs                    ,8
+num_sockets                ,1
+num_threads_per_core       ,2
+bios_bin       ,BHSDINT1.86B.0024.D01.2306091146_GA800003d0_SA9800000e_GB99000004_SB9900000a_AP_Simics_2.bin
+XMPMode       ,N/A
+PpdEn       ,N/A
+RefreshMode       ,N/A
+HostDdrFreqLimit       ,6400
+DramRaplPwrLimitLockCsr       ,N/A
+CkeProgramming       ,N/A
+mc_mode       ,N/A
+preloader path       ,None
+preloader_version       ,N/A
+
+INFO PULL FROM ubios.asm 
+CMD_Timing C00|C01      ,1N|1N
+XptPrefetchEn       ,0
+xptprefetchdisable       ,0x1
+DfxD2cEn       ,2 (AUTO)
+ClockModulationEn       ,2 (AUTO)
+DfxBankXorEn       ,1
+QCLK Ratio       ,64
+Clustering mode       ,Hemi
+Paging Policy       ,|            | Adapt Open
+DIMM config Dnsty|Width|Rank_cnt|      ,16Gbx4 DR
+
+INFO PULL FROM testbench.log 
+Core Clock Freq [MHz]       ,3200.0
+Uncore Clock Freq [MHz]      ,2400.0
+DDR Clock Freq [MHz]       ,3200.0
+
+CONFIGS OVERRIDES ON THIS TEST: 
+Knob Name,DefVal,CurVal
+DfxEmuBiosSkipS3MAccess,2,1
+DataDllOff,1,0
+DdrEccEnable,1,1
+DfxInputCmdDelay,0,40
+DfxMdfisTrainingEn,2,0
+DfxPseudoChannelXorEn,1,0
+DfxS3mSoftStrap,2,0
+DfxScrambleEnDDR5,1,0
+DfxTaCalculationDebug,0,1
+DfxWarmResetEliminationEn,2,1
+DfxXactorBitmap,0,0
+EnforceDdrMemoryFreqPor,0,2
+ProcessorX2apic,1,0
+XptPrefetchEn,2,0
+volMemMode,0,0
+
+Fuse Name
