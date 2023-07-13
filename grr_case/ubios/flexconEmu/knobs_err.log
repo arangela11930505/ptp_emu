@@ -1,0 +1,209 @@
+stdout:
+
+{'source': '/nfs/site/disks/ncsg_00191/GRR_emu_collaterals_1/BIOS/B0_ww07a_model_BIOS_17.D.92/LVLDCRB1.86B.0017.D92.2303230510_Pf5621001_GRR_EBG_IGN_SIMICS.bin', 'destination': '/nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs/5a603c9d5f1ddc59f32e0c778445b5f9', 'knobfile': None, 'knobstr': 'MemTestLoops=1,CkeProgramming=Manual,DfxBankXorEn=Enable,DfxDdr5RefreshModeOverride=Same Bank Fine,DfxTimingOverrideCtrl=Enable,DdrEccEnable=Disable,volMemMode=1LM,DfxInputRxDqsDelay=38,XMPMode=Manual,DfxUbiosGeneration=Enable,DfxScrambleEnDDR5=Disable,DfxDdrioLaneReversalOverrideEn=Disable,VTdSupport=Enable,McBankWarmBootClearError=Disable,DfxWarmResetEliminationEn=Enable,commandTiming=2N,ClockModulationEn=Disable,DfxInputIoLatency=1,HwMemTest=1,DfxInputIoLatencyIoComp=0x11,CheckCpuBist=Disable,serialDebugMsgLvl=2,HostDdrFreqLimit=5600,DfxInputRt=0x20,DramRaplPwrLimitLockCsr=Disable,DfxInputCmdDelay=64,Socket_0_PciExpress_0_Port_1_IsEnabled=0x1,PpdEn=Disable,RefreshMode=Disable', 'suffix': 'QHnXDapaRvnm', 'updatedefaults': False, 'biosfile': None}
+
+
+Going to modify the following BIOS:
+	/nfs/site/disks/ncsg_00191/GRR_emu_collaterals_1/BIOS/B0_ww07a_model_BIOS_17.D.92/LVLDCRB1.86B.0017.D92.2303230510_Pf5621001_GRR_EBG_IGN_SIMICS.bin
+with ('None'):
+	['MemTestLoops=1', 'CkeProgramming=Manual', 'DfxBankXorEn=Enable', 'DfxDdr5RefreshModeOverride=Same Bank Fine', 'DfxTimingOverrideCtrl=Enable', 'DdrEccEnable=Disable', 'volMemMode=1LM', 'DfxInputRxDqsDelay=38', 'XMPMode=Manual', 'DfxUbiosGeneration=Enable', 'DfxScrambleEnDDR5=Disable', 'DfxDdrioLaneReversalOverrideEn=Disable', 'VTdSupport=Enable', 'McBankWarmBootClearError=Disable', 'DfxWarmResetEliminationEn=Enable', 'commandTiming=2N', 'ClockModulationEn=Disable', 'DfxInputIoLatency=1', 'HwMemTest=1', 'DfxInputIoLatencyIoComp=0x11', 'CheckCpuBist=Disable', 'serialDebugMsgLvl=2', 'HostDdrFreqLimit=5600', 'DfxInputRt=0x20', 'DramRaplPwrLimitLockCsr=Disable', 'DfxInputCmdDelay=64', 'Socket_0_PciExpress_0_Port_1_IsEnabled=0x1', 'PpdEn=Disable', 'RefreshMode=Disable']
+
+
+BIOSes will be moved from '/nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs_QHnXDapaRvnm/xmlcli/out' to '/nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs/5a603c9d5f1ddc59f32e0c778445b5f9'
+Found valid knob for MemTestLoops
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0xFFFF = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for CkeProgramming
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Auto">,<KnobSelection 0x1 = "Manual">]
+Non-string value found, returning hex value of 1
+Found valid knob for DfxBankXorEn
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 1
+Found valid knob for DfxDdr5RefreshModeOverride
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Auto">,<KnobSelection 0x1 = "All Bank Normal">,<KnobSelection 0x2 = "All Bank Fine">,<KnobSelection 0x3 = "Same Bank Fine">]
+Non-string value found, returning hex value of 3
+Found valid knob for DfxTimingOverrideCtrl
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 1
+Found valid knob for DdrEccEnable
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for volMemMode
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "1LM">,<KnobSelection 0x1 = "2LM">]
+Non-string value found, returning hex value of 0
+Found valid knob for DfxInputRxDqsDelay
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0xFF = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for XMPMode
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Manual">,<KnobSelection 0x2 = "Profile 1">,<KnobSelection 0x3 = "Profile 2">]
+Non-string value found, returning hex value of 1
+Found valid knob for DfxUbiosGeneration
+setupType: oneof
+Selections: [<KnobSelection 0x1 = "Disable">,<KnobSelection 0x2 = "Enable">,<KnobSelection 0x0 = "Auto">]
+Non-string value found, returning hex value of 2
+Found valid knob for DfxScrambleEnDDR5
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for DfxDdrioLaneReversalOverrideEn
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for VTdSupport
+setupType: oneof
+Selections: [<KnobSelection 0x1 = "Enable">,<KnobSelection 0x0 = "Disable">]
+Non-string value found, returning hex value of 1
+Found valid knob for McBankWarmBootClearError
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for DfxWarmResetEliminationEn
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">,<KnobSelection 0x2 = "Auto">]
+Non-string value found, returning hex value of 1
+Found valid knob for commandTiming
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Auto">,<KnobSelection 0x1 = "1N">,<KnobSelection 0x2 = "2N">]
+Non-string value found, returning hex value of 2
+Found valid knob for ClockModulationEn
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">,<KnobSelection 0x2 = "Auto">]
+Non-string value found, returning hex value of 0
+Found valid knob for DfxInputIoLatency
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0x1F = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for HwMemTest
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Found valid knob for DfxInputIoLatencyIoComp
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0x7F = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for CheckCpuBist
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for serialDebugMsgLvl
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Minimum">,<KnobSelection 0x2 = "Normal">,<KnobSelection 0x3 = "Maximum">,<KnobSelection 0x4 = "Auto">,<KnobSelection 0x5 = "Fixed PCD">]
+Found valid knob for HostDdrFreqLimit
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Auto">,<KnobSelection 0x1 = "3200">,<KnobSelection 0x3 = "3600">,<KnobSelection 0x5 = "4000">,<KnobSelection 0x7 = "4400">,<KnobSelection 0x8 = "4800">,<KnobSelection 0x9 = "5200">,<KnobSelection 0xA = "5600">,<KnobSelection 0xB = "6000">,<KnobSelection 0xC = "6400">,<KnobSelection 0xD = "6800">,<KnobSelection 0xE = "7200">,<KnobSelection 0xF = "7600">,<KnobSelection 0x10 = "8000">,<KnobSelection 0x11 = "8400">,<KnobSelection 0x12 = "8800">]
+Non-string value found, returning hex value of 10
+Found valid knob for DfxInputRt
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0xFF = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for DramRaplPwrLimitLockCsr
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for DfxInputCmdDelay
+setupType: numeric
+Selections: [<KnobSelection 0x0 = "Minimum">,<KnobSelection 0x1FF = "Maximum">,<KnobSelection 0x0 = "Step">]
+Found valid knob for Socket_0_PciExpress_0_Port_1_IsEnabled
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Force HIDE">,<KnobSelection 0x1 = "Force SHOW">,<KnobSelection 0x2 = "Auto">]
+Found valid knob for PpdEn
+setupType: oneof
+Selections: [<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Found valid knob for RefreshMode
+setupType: oneof
+Selections: [<KnobSelection 0x2 = "Auto">,<KnobSelection 0x0 = "Disable">,<KnobSelection 0x1 = "Enable">]
+Non-string value found, returning hex value of 0
+Converted knobs to: MemTestLoops=1,CkeProgramming=0x1,DfxBankXorEn=0x1,DfxDdr5RefreshModeOverride=0x3,DfxTimingOverrideCtrl=0x1,DdrEccEnable=0x0,volMemMode=0x0,DfxInputRxDqsDelay=38,XMPMode=0x1,DfxUbiosGeneration=0x2,DfxScrambleEnDDR5=0x0,DfxDdrioLaneReversalOverrideEn=0x0,VTdSupport=0x1,McBankWarmBootClearError=0x0,DfxWarmResetEliminationEn=0x1,commandTiming=0x2,ClockModulationEn=0x0,DfxInputIoLatency=1,HwMemTest=1,DfxInputIoLatencyIoComp=0x11,CheckCpuBist=0x0,serialDebugMsgLvl=2,HostDdrFreqLimit=0xa,DfxInputRt=0x20,DramRaplPwrLimitLockCsr=0x0,DfxInputCmdDelay=64,Socket_0_PciExpress_0_Port_1_IsEnabled=0x1,PpdEn=0x0,RefreshMode=0x0
+Fit Entry (0xFFAC7090) Not Found in Ucode FV or is a Duplicate FIT Entry, Fix FIT
+Moved binary file to iyellow,black/nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs/5a603c9d5f1ddc59f32e0c778445b5f9/LVLDCRB1.86B.0017.D92.2303230510_Pf5621001_GRR_EBG_IGN_SIMICS_modified_QHnXDapaRvnm.bin
+
+
+stderr:
+
+Insecure module import used! Please install all the required dependencies by running `pip install -r requirements.txt`
+Insecure module import used! Please install all the required dependencies by running `pip install -r requirements.txt`
+Insecure module import used! Please install all the required dependencies by running `pip install -r requirements.txt`
+Insecure module import used! Please install all the required dependencies by running `pip install -r requirements.txt`
+Insecure module import used! Please install all the required dependencies by running `pip install -r requirements.txt`
+ Fetching Firmware Info from the given Bios Binary...
+SanitizeXml(): No XML syntax errors found with source XML file.
+ Fetching Firmware Info Done in /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs_QHnXDapaRvnm/xmlcli/out/PlatformConfig.xml 
+|No Changes detected/applied
+yellowParsing GBT XML: "/nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs_QHnXDapaRvnm/xmlcli/out/PlatformConfig.xml"
+Warning: Bios Option "C6Enable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x1")
+Warning: Bios Option "C6Enable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x2")
+Warning: Bios Option "C6Enable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x3")
+Warning: Bios Option "C6Enable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x4")
+Warning: Bios Option "ProcessorC1eEnable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x0")
+Warning: Bios Option "ProcessorC1eEnable" has a selection that doesn't contain any characters. Replacing with hex string of value (name="0x1")
+ Fetching Firmware Info from the given Bios Binary...
+SanitizeXml(): No XML syntax errors found with source XML file.
+ Fetching Firmware Info Done in /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs_QHnXDapaRvnm/xmlcli/out/PlatformConfig.xml 
+| see below for the results..
+||--|----|----------------------------------------|--|-----------|-----------|
+||VI|Ofst|                 Knob Name              |Sz|   DefVal  |   CurVal  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 3|  EF|                McBankWarmBootClearError| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 3|  F4|                       serialDebugMsgLvl| 1|        4  |        2  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  66|                            MemTestLoops| 2|        1  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  A7|                          CkeProgramming| 1|        0  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1| 1C3|                            DfxBankXorEn| 1|        1  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1| 1E0|              DfxDdr5RefreshModeOverride| 1|        0  |        3  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  89|                   DfxTimingOverrideCtrl| 1|        0  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  85|                            DdrEccEnable| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  A1|                              volMemMode| 1|        0  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  94|                      DfxInputRxDqsDelay| 2|       FF  |       26  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  C3|                                 XMPMode| 1|        0  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  B6|                       DfxScrambleEnDDR5| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1| 2A8|          DfxDdrioLaneReversalOverrideEn| 1|        0  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 2| 186|                              VTdSupport| 1|        1  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 4|  EB|               DfxWarmResetEliminationEn| 1|        2  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  D0|                           commandTiming| 1|        0  |        2  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 4|  3E|                       ClockModulationEn| 1|        2  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  8B|                       DfxInputIoLatency| 1|       1F  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  65|                               HwMemTest| 1|        1  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  8C|                 DfxInputIoLatencyIoComp| 1|       7F  |       11  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 6|  15|                            CheckCpuBist| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  D1|                        HostDdrFreqLimit| 1|        0  |        A  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  8A|                              DfxInputRt| 1|       FF  |       20  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1| 178|                 DramRaplPwrLimitLockCsr| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1| 1C7|                        DfxInputCmdDelay| 2|        0  |       40  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 2|  40|  Socket_0_PciExpress_0_Port_1_IsEnabled| 1|        2  |        1  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  AC|                                   PpdEn| 1|        1  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| 1|  62|                             RefreshMode| 1|        2  |        0  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|| D|   4|                      DfxUbiosGeneration| 1|        0  |        2  |
+||--|----|----------------------------------------|--|-----------|-----------|
+|SecureProfileEditing Set to False, Please note that the re-generated binary maynot boot with Secure Profile IFWI (Pls ignore this message if Server BIOS)
+|Created New updated Bios File /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/ubios/flexconEmu/bios_knobs_QHnXDapaRvnm/xmlcli/out/LVLDCRB1.86B.0017.D92.2303230510_Pf5621001_GRR_EBG_IGN_SIMICS__modified_QHnXDapaRvnm.bin with desired knob settings

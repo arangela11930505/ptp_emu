@@ -1,0 +1,21 @@
+              Runtime: 7802.8s
+       Configure Time: 901.9s
+           Total Time: 8707.2s
+  EMU INDICATORS SPEC: 2.0
+                JOBID: 22128363
+         TESTED MODEL: /nfs/site/disks/ncsg_00216/akadu/B0_TEC_BUILD_1/grr-atom-b0-23ww07a_Staging_Feb_20_v8-011/target/emu/grr_soc/grr_28c_nac_dfx_v2
+            TEST NAME: Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011
+               RESULT: ACED
+           CYCLES RUN: 343000000.5
+            TICKS RUN: 686000001
+   RATED TB FREQUENCY: 69000
+  ACTUAL TB FREQUENCY: 43958.6
+           EFFICIENCY: 64
+             PLATFORM: zse3
+                 HOST: fmez1160
+                 USER: arangela
+              CMDLINE: /nfs/site/eda/group/SYSNAME/emu/intel/gecco/1.13.1/bin/emurun -ver /nfs/site/disks/ncsg_00216/akadu/B0_TEC_BUILD_1/grr-atom-b0-23ww07a_Staging_Feb_20_v8-011/target/emu/grr_soc/grr_28c_nac_dfx_v2 -nbqslot /prj/sv/grr/pnp/standard -c 1200m -test /nfs/site/disks/ive_grr_pnp_001/arangela/maestro-github/maestro-github/build/content/legacy/grr/test_cases/performance/traffic_type/bw_all_traffic_types_GRR/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.obj -plugin /nfs/site/disks/ncsg_00261/akadu/antonio/32gb/mem_preloader.pm -override_input_dir /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/input_dir_b0_17d92 -configdb_override /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/22ww44b_RTL_22ww50c_refresh/test/DDRRefresh/28C_2MC.dut_cfg -execlimit 86400 -netbatch_opts '--exec-limits "25h:26h"' -fuse.enable -fuse.dut grr_soc -bypass_fuse_sense -fuse.fuse_string_file /nfs/site/disks/ive_grr_pnp_001/arangela/grr_pll/hwrs_fuse_override_1p4_C2M.txt -simics_post_setup_script /nfs/site/disks/ive_grr_pnp_001/arangela/scripts/simics_injection_1p4_24C_coreFeatDis2_no_cas2cas.simics -nacenable -cpk_no_fw -gz -lip_tracker_en -force_wash user,ncsg76,gnr76,grr76fe,hdk10nm,gnr74,soc,grr76,hdk10nmproc,hdk7nm,ebg,srvr10nm -__model_locations fm=/nfs/site/disks/ncsg_00216/akadu/B0_TEC_BUILD_1/grr-atom-b0-23ww07a_Staging_Feb_20_v8-011/target/emu/grr_soc/grr_28c_nac_dfx_v2
+            DATE/TIME: 04/17/23 12:30 PDT
+         COPY IN TIME: 21s
+          PROJECTNAME: 
+           RESULTPATH: /nfs/site/disks/ive_grr_pnp_001/arangela/grr_c2m/24C-NAC/b0_23ww07a/17d92/Maestro_b0_24c_1R1W_32MB_3loop_traff8_core2mem-011.32.1/

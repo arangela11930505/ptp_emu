@@ -1,0 +1,66 @@
+
+
+
+INFO PULL FROM emurun.dut_cfg: 
+tlm_dut                    ,grr
+EMU Model path             ,0
+real_cores                 ,28
+num_chs_per_mcs            ,1
+num_mcs                    ,2
+num_sockets                ,1
+num_threads_per_core       ,1
+bios_bin       ,LVLDCRB1.86B.0017.D92.2303230510_Pf5621001_GRR_EBG_IGN_SIMICS.bin
+XMPMode       ,Manual
+PpdEn       ,Disable
+RefreshMode       ,Disable
+HostDdrFreqLimit       ,5600
+DramRaplPwrLimitLockCsr       ,Disable
+CkeProgramming       ,Manual
+mc_mode       ,2
+preloader path       ,None
+preloader_version       ,dev
+
+INFO PULL FROM ubios.asm 
+CMD_Timing C00|C01      ,2N|2N
+XptPrefetchEn       ,2
+xptprefetchdisable       ,0x0
+DfxD2cEn       ,2 (AUTO)
+ClockModulationEn       ,0 (DISABLE)
+DfxBankXorEn       ,1
+QCLK Ratio       ,56
+Clustering mode       ,All2All
+Paging Policy       ,| Adapt Open
+DIMM config Dnsty|Width|Rank_cnt|      ,16Gbx16 SR
+
+INFO PULL FROM testbench.log 
+Core Clock Freq [MHz]       ,400.0
+Uncore Clock Freq [MHz]      ,2000.0
+DDR Clock Freq [MHz]       ,5600.0
+
+CONFIGS OVERRIDES ON THIS TEST: 
+Knob Name,DefVal,CurVal
+McBankWarmBootClearError,1,0
+serialDebugMsgLvl,4,2
+MemTestLoops,1,1
+CkeProgramming,0,1
+DfxBankXorEn,1,1
+DfxDdr5RefreshModeOverride,0,3
+DfxTimingOverrideCtrl,0,1
+DdrEccEnable,1,0
+volMemMode,0,0
+XMPMode,0,1
+DfxScrambleEnDDR5,1,0
+DfxDdrioLaneReversalOverrideEn,0,0
+VTdSupport,1,1
+DfxWarmResetEliminationEn,2,1
+commandTiming,0,2
+ClockModulationEn,2,0
+HwMemTest,1,1
+CheckCpuBist,1,0
+DramRaplPwrLimitLockCsr,1,0
+DfxInputCmdDelay,0,40
+Socket_0_PciExpress_0_Port_1_IsEnabled,2,1
+PpdEn,1,0
+RefreshMode,2,0
+
+Fuse Name
